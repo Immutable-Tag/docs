@@ -4,11 +4,9 @@
 
 Our application is made up of three fundamental components:
 
-1. Front-end Web Application using the React framework:
-
-2. A Node.js Middleware
-
-3. Ethereum Blockchain and smart contracts
+1. Ethereum Blockchain and smart contracts
+1. A Node.js Middleware
+1. Front-end Web Application using the React framework
 
 The following figure shows how these components are connected:
 
