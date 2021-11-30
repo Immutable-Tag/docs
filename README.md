@@ -127,9 +127,15 @@ npm install
 
 #### 2.3 Linking the Middleware to the Smart Contract
 
-Paste the previously copied contract address in the Middleware repo's `smartContractConfig/config.js` file on line 3.
+Paste the previously copied contract address in the Middleware repo's `smartContractConfig/config.js` file on line 3 as the value for `contractAddress`.
 
-#### 2.4 Running the server
+#### 2.4 Add GitHub token
+
+To create tags in GitHub we need to use a Personal Access Token (PAT) with write permissions.
+
+To create a PAT, go to <https://github.com/settings/tokens> and click the `Generate new token` button. Select all the permissions and click `Generate Token`. Copy the token and paste it in `smartContractConfig/config.js` on the last line as the value for `githubToken`.
+
+#### 2.5 Running the server
 
 ```bash
 npm start
